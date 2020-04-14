@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "logtemp.py", line 43, in <module>
+    signal.pause() # block on signal, handler is called automatically
+  File "logtemp.py", line 25, in timer_handler
+    temp = bus.read_byte(ADDRESS) # Read TC74 sensor
+OSError: [Errno 121] Remote I/O error
